@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.hero {
+    background-image: url('../images/background.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #ff7e5f; /* Custom color */
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #d86249; /* Custom hover color */
+}
+
+.section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-content h2 {
+    color: #333;
+}
+
+.section-content p {
+    color: #666;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label,
+form input,
+form textarea {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
