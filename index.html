@@ -1,69 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
-    <title>Sarthak Parikh - Web Services & Sound Production</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-MBXVE0QIsZtZ3bWxaY0F2l4OjzPtdPrNId2uZ2q2t7MJoF9s6y+A56s/8iEiVbw4nssHX6fGswQCHwVxP3fvLw=="
+        crossorigin="anonymous" />
+    <title>Software Engineer Portfolio</title>
 </head>
+
 <body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="animate__animated animate__fadeIn">Sarthak Parikh</h1>
-            <p class="animate__animated animate__fadeIn">Your Partner in Web Services & Sound Production</p>
-            <a href="#contact" class="cta-button animate__animated animate__fadeIn">Contact Me</a>
-        </div>
-    </header>
-
-    <section id="about" class="section">
-        <div class="section-content">
-            <h2 class="animate__animated animate__fadeIn">About Me</h2>
-            <p class="animate__animated animate__fadeIn">Welcome to my website! I specialize in providing top-notch web application services, voice-over, sound production, and script writing for radio or Spotify ads. Explore my skills and projects to learn more about what I can offer.</p>
+    <section class="header">
+        <div class="container">
+            <img src="./images/profile-pic.png" alt="Sarthak Parikh">
+            <h1>Software Engineer</h1>
         </div>
     </section>
 
-    <section id="services" class="section">
-        <div class="section-content">
-            <h2 class="animate__animated animate__fadeIn">Services</h2>
-            <p class="animate__animated animate__fadeIn">From crafting engaging web applications to creating captivating soundscapes, I offer a range of services to meet your digital needs.</p>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="section-content">
-            <h2 class="animate__animated animate__fadeIn">Projects</h2>
-            <p class="animate__animated animate__fadeIn">Check out some of my featured projects that showcase my skills and expertise.</p>
-            <!-- Include your project articles here -->
-            <div class="project animate__animated animate__fadeIn">
-                <h3>Web Application: Project A</h3>
-                <p>Description of Project A goes here.</p>
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill">
+                <i class="fab fa-js"></i> JavaScript
+                <div class="skill-bar" data-level="80"></div>
+                <span>4 years</span>
             </div>
-
-            <div class="project animate__animated animate__fadeIn">
-                <h3>Voice Over: Project B</h3>
-                <p>Description of Project B goes here.</p>
-            </div>
-
-            <div class="project animate__animated animate__fadeIn">
-                <h3>Sound Production: Project C</h3>
-                <p>Description of Project C goes here.</p>
-            </div>
+            <!-- Add other skills similarly -->
         </div>
     </section>
 
-    <section id="contact" class="section">
-        <div class="section-content">
-            <h2 class="animate__animated animate__fadeIn">Contact Me</h2>
-            <p class="animate__animated animate__fadeIn">Ready to start a project or have a question? Feel free to reach out!</p>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5ZQVAe2kEC-aF1NuUoDYInlxRLU2i-sRwL3YVdfHxbvnDmA/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="./images/react.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+
+                <div class="project">
+                    <img src="./images/react.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <img src="./images/react.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <img src="./images/react.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <img src="./images/react.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <img src="./images/react.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <img src="./images/react.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+
+                <!-- Add other projects similarly -->
+
+            </div>
+            
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2023 Sarthak Parikh. All rights reserved.</p>
-    </footer>
+    <section class="papers">
+        <div class="container">
+            <h2>Paper Publications</h2>
+            <div class="paper">
+                <h3>Advancement in Network Infrastructure s</h3>
+                <a href="./images/IRJET-Advancement in network Infrastructure.pdf" target="_blank">View Certificate</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form  action="https://formspree.io/f/mnqeaela" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
     <script src="./js/index.js"></script>
 </body>
+
 </html>
